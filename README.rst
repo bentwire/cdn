@@ -89,6 +89,8 @@ installed and running.
 
 7. Install general requirements::
 
+    You may have to install the libxml-dev and libxslt-dev packages before the requirements pulled in by pip will build. YMMV
+
     $ pip install -r requirements/requirements.txt
 
    Install Requirements for each Provider configured::
